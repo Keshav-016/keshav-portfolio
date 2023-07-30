@@ -1,14 +1,15 @@
 import CertCard from "./CertCard.js"
 
 import hr from "../assets/curve-hr.svg"
-import mtcna from "../assets/certs/mtcna.jpg"
-import adinusa from "../assets/certs/adinusa.png"
-import dicodingAws from "../assets/certs/dicoding-aws.png"
-import dicodingJs from "../assets/certs/dicoding-js.png"
-import dicodingNetwork from "../assets/certs/dicoding-network.png"
-import progateHtml from "../assets/certs/progate-htmlcss.png"
-import progateJs from "../assets/certs/progate-js.png"
-import fccResponsive from "../assets/certs/fcc-responsive.png"
+import aws from "../assets/certs/AWS.png"
+import basic from "../assets/certs/basic.png"
+import gait from "../assets/certs/gait.png"
+import hrc from "../assets/certs/hrc.png"
+import inter from "../assets/certs/inter.png"
+import microsoft from "../assets/certs/microsoft.png"
+import python from "../assets/certs/python.png"
+import smartInt from "../assets/certs/smartInternz.png"
+import web from "../assets/certs/webdev.png"
 
 // import 
 
@@ -20,14 +21,15 @@ export default function Certs(){
 
             {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
             <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
-                <CertCard name="Bootcamp Btech Academy Cloud Engineer" img={adinusa} issued="Adinusa" date="Jul 2022" />
-                <CertCard name="Mikrotik Certfied Network Associate" img={mtcna} issued="Mikrotik" date="Jun 2022" />
-                <CertCard name="Cloud Practitioner Essentials" img={dicodingAws} issued="Dicoding Indonesia" date="Feb 2022" />
-                <CertCard name="Dasar Pemprograman Javascript" img={dicodingJs} issued="Dicodig Indonesia" date="Mei 2021" />
-                <CertCard name="Jaringan Komputer untuk Pemula" img={dicodingNetwork} issued="Dicodig Indonesia" date="Jan 2023" />
-                <CertCard name="Responsive Web Design " img={fccResponsive} issued="Dicodig Indonesia" date="Dec 21" />
-                <CertCard name="Kursus Javascript" img={progateJs} issued="Progate" date="Oct 2020" />
-                <CertCard name="Kursus HTML & CSS" img={progateHtml} issued="Progate" date="Oct 2020" />
+                <CertCard name="Problem Solving Basic" img={basic} issued="HackerRank" date="Jan 2022" />
+                <CertCard name="Amazon Web Service" img={aws} issued="Credly" date="April 2023" />
+                <CertCard name="Gait Exam" img={gait} issued="Gait" date="May 2023" />
+                <CertCard name="HighRadius Training" img={hrc} issued="HighRadius" date="July 2023" />
+                <CertCard name="Problem Solving Intermediate" img={inter} issued="HackerRank" date="Sep 2022" />
+                <CertCard name="Salesforce Developer Role " img={smartInt} issued="SmartInternz" date="July 2023" />
+                <CertCard name="Python Basics" img={python} issued="Udemy" date="Oct 2021" />
+                <CertCard name="Microsoft AI classroo Series" img={microsoft} issued="Progate" date="Dec 2020" />
+                <CertCard name="Full Stack Development Bootcamp" img={web} issued="Udemy" date="Dec 2022" />
 
             </div>
             <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />

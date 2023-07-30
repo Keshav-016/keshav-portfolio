@@ -2,8 +2,10 @@ import {useState} from 'react'
 
 import profile from '../assets/profile.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {  faGithub, faInstagram, faLinkedinIn , SiLeetcode} from "@fortawesome/free-brands-svg-icons";
+import {  faGithub, faInstagram, faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+// import { SiLeetcode } from "react-icons/si";
 import hr from '../assets/curve-hr.svg'
+import leet from '../assets/leetcode.png'
 
 export default function Hiro () {
 
@@ -27,7 +29,7 @@ export default function Hiro () {
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
                     <h1 className="text-2xl font-bold">Keshav Kumar</h1>
                     <p class="text-xl font-bold text-gray-300">Frontend Developer</p>
-                    <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about  Cloud Computing, Machine Learning, Graphic Designing and Web Development. Now I am looking for more experience in my field.</p>
+                    <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Computer Science. Interested in exploring about  Cloud Computing, Machine Learning, Graphic Designing and Web Development. Now I am looking for more experience in my field.</p>
                 </div>
                 
                 <ul className='flex mt-2 gap-4 items-center'>
@@ -41,7 +43,7 @@ export default function Hiro () {
                         <a href='https://www.linkedin.com/in/keshav1209/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={faLinkedinIn} /></a>
                     </li>
                     <li>
-                        <a href='https://www.linkedin.com/in/keshav1209/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' icon={SiLeetcode} /></a>
+                        <a href='https://leetcode.com/Keshav_016/' rel="noreferrer" target="_blank"><FontAwesomeIcon size='2xl' /><img src={leet} alt="not here" style={{height:"32px"}}/></a>
                     </li>
                 </ul>
             </div>

@@ -33,16 +33,13 @@ export default function Skills() {
 
             <div className="mt-4">
                 <Slider {...settings}>
-                    <SkillCard name="python" experience="1 years" img={python} />
+                    <SkillCard name="python" experience="2 years" img={python} />
                     <SkillCard name="javascript" experience="1 years" img={javascript} />
-                    <SkillCard name="react" experience="1 years" img={reactIcon} />
-
-
-                    <SkillCard name="windows" experience="1 years" img={windows} />
-                    <SkillCard name="react" experience="1 years" img={react} />
-
+                    <SkillCard name="react" experience="6 months" img={reactIcon} />
+                    <SkillCard name="windows" experience="4 years" img={windows} />
+                    <SkillCard name="react" experience="6 months" img={react} />
                     <SkillCard name="git" experience="1 years" img={git} />
-                    <SkillCard name="express" experience="1 years" img={express} />
+                    <SkillCard name="express" experience="3 months" img={express} />
 
                 </Slider>
             </div>
